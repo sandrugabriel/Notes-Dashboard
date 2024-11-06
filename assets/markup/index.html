@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My notes</h1>
+    </header>
+
+    <main>
+
+        <div class="menu-container">
+            <div class="menu-mobile">
+                <select id="menu">
+                    <option value="All Notes">All Notes</option>
+                    <option value="Business">Business</option>
+                    <option value="Social">Social</option>
+                    <option value="Important">Important</option>
+
+                </select>
+
+                <button class="btnAddNotes">Add Notes</button>
+
+            </div>
+
+            <div class="menu-pc">
+
+                <div class="buttons-container">
+                    <button class="btnMenu btnAll">All Notes</button>
+                    <button class="btnMenu btnBusiness">Business</button>
+                    <button class="btnMenu btnSocial">Social</button>
+                    <button class="btnMenu btnImportant">Important</button>
+                </div>
+
+                <button class="btnAddNotes">Add Notes</button>
+
+            </div>
+
+        </div>
+
+        <div class="card-note add-container">
+
+                <div class="side-stick"></div>
+                <div class="card-info">
+                    <div class="card-title-date">
+                        <input class="h1-card add-title" type="text" placeholder="Title">
+                        <input class="p-card add-date" type="text" placeholder="Date">
+                    </div>
+
+                    <select class="category">
+                        <option value="Business">Business</option>
+                        <option value="Social">Social</option>
+                        <option value="Important">Important</option>
+                    </select>
+
+                </div>
+
+                <input class="desc-card" type="text" placeholder="Description" aria-multiline="true">
+                <div class="card-save">
+                    <button class="btnCancel btns">Cancel</button>
+                    <button class="btnSave btns">Save</button>
+                </div>
+
+        </div>
+
+        <div class="notes-container">
+
+            <div class="card-note">
+                <div class="side-stick"></div>
+                <div class="card-info">
+                    <div class="card-title-date">
+                        <h2 class="h1-card">Book a Ticket for Movie</h2>
+                        <p class="p-card">10 Aug 2024</p>
+                    </div>
+
+                    <div class="cerc" style="background-color: red;"></div>
+                </div>
+
+
+                <p class="desc-card">description sadasd ad ......</p>
+                <div class="card-favorite">
+                    <img src="/assets/img/starblack.png" alt="star">
+                    <img src="/assets/img/trash.png" alt="delete">
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
