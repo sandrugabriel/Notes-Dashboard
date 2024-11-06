@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    font-family:'Roboto', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.menu-pc{
+    display: none;
+}
+
+img{
+    width: 15px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    padding: 10px 15px;
+    margin: 0px;
+    background-color: rgb(234, 244, 248);
+}
+
+.menu-container{
+    margin-bottom: 25px;
+}
+
+.menu-mobile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#menu{
+    padding: auto;
+    /* background-color: aliceblue; */
+    border: gray 1px solid;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btnAddNotes{
+    background-color: rgb(1, 42, 74);
+    color: white;
+    border: 0px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.card-note{
+
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 25px 15px ;
+    margin-bottom: 25px;
+    border: red 1px solid;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;;
+    justify-content: flex-start;
+
+}
+
+.card-title-date{
+    width: 90%;
+}
+
+.h1-card{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 450;
+    margin: 0px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.p-card{
+    margin: 0px;
+    color: gray;
+}
+
+.desc-card{
+    color: gray;
+}
+
+#cerc{
+    margin-left:7px;
+    margin-top: 3px;
+    border-radius: 50px;
+    width: 19px;
+    height: 19px;
+}
+
+.side-stick {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    left: 0;
+    background-color: rgba(82, 95, 127, .5);
+}
+
+.card-save{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btns{
+    margin-top: 10px;
+    width: 100px;
+    border: 0px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.category{
+    height: 40px;
+    margin-left: 5px;
+}
+
+.add-container{
+    display: none;
+}
+
+@media(min-width:1000px){
+    
+    .menu-mobile{
+        display: none;
+    }
+
+    .menu-pc{
+        background-color: white;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 50px;
+    }
+
+    .add-container{
+        width: 100%;
+    }
+
+    .btnMenu{
+        background-color: white;
+        color: #007BFF;
+        border: 0px;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    
+    .btnAddNotes{
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    
+    
+    .btnAll{
+        background-color: #007BFF;
+        color: white;
+    }
+
+    .notes-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    .card-note{
+        width: 100%;
+        margin-right: 25px;
+    }
+
+}
