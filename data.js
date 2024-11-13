@@ -1,4 +1,31 @@
-let data = [
+let users = [
+
+    {
+        id:1,
+        name: "Radu Filip",
+        email:"radu@gmail.com",
+        password: "radu1234",
+        notes: [1,2,3,4,5]
+    },
+    {
+        id:2,
+        name: "Andrei Filip",
+        email:"andrei@gmail.com",
+        password: "andrei1234",
+        notes: [6,7,8]
+    }, 
+    {
+        id:2,
+        name: "cipri Filip",
+        email:"cipri@gmail.com",
+        password: "cipri1234",
+        notes: [9]
+    },
+
+
+];
+
+let notesusers = [
 
     {
         id: 1,
